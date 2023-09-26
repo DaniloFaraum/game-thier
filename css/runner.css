@@ -1,0 +1,47 @@
+*{
+    border: 1px solid red;
+}
+
+div{
+    background-color: brown;
+}
+
+body{
+    height: 100%;
+    background-color: aqua;
+    display: flex;
+    overflow: hidden;
+    
+}
+
+.floor{
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    height:200px;
+}
+
+.game{
+    background-color: blueviolet;
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    bottom: 200px;
+    display: flex;
+}
+
+.player{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.spawner{
+    height: 100px;
+    width: 100px;
+    background-color: beige;
+    margin-top: 100px;
+}
